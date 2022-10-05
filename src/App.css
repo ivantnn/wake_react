@@ -16,8 +16,34 @@
   font-size: 3rem;
 }
 
+.under_nav {
+  background-image: url('../public/images/blank.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  background-image: url('../public/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  justify-content: center;
+  color: #fff;
+  font-size: 100px;
+}
+
+.home2 {
+  background-image: url('../public/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  color: #fff;
+  font-size: 30px;
+  justify-content: center;
+}
+
 .schedule {
-  background-image: url('../public/images/img-2.jpg');
+  background-image: url('../public/images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +52,7 @@
 }
 
 .sponsors {
-  background-image: url('../public/images/img-1.jpg');
+  background-image: url('../public/images/img-5.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +61,7 @@
 }
 
 .faq {
-  background-image: url('../public/images/img-8.jpg');
+  background-image: url('../public/images/woods.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -16,12 +16,12 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+      <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/sponsors' component={Sponsors} />
-          <Route path='/faq' component={FAQ} />
-          <Route path='/schedule' component={Schedule} />
+          <Route path='/' exact element={<Home/>} />
+          <Route path='/sponsors' element={<Sponsors/>} />
+          <Route path='/faq' element={<FAQ/>} />
+          <Route path='/schedule' element={<Schedule/>} />
         </Switch>
       </Router>
     </>

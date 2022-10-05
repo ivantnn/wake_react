@@ -1,6 +1,11 @@
 import React from 'react';
 import '../../App.css';
 
-export default function FAQ() {
-  return <h1 className='faq'>PRODUCTS</h1>;
+function FAQ() {
+  return (
+    <h1 className='faq'>FREQUENTLY ASKED QUESTIONS</h1>
+
+  );
 }
+
+export default FAQ;

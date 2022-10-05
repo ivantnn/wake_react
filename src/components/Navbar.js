@@ -69,12 +69,22 @@ function Navbar() {
 
             <li className='nav-item'>
               <a
-                href="https://instagram.com/w.a.k.e.2022?igshid=YmMyMTA2M2Y="
+                href="https://www.facebook.com/profile.php?id=100086266312362"
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 <i class='fab fa-facebook'></i>
               </a>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Home
+              </Link>
             </li>
 
             <li className='nav-item'>
