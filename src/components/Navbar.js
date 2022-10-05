@@ -14,7 +14,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const wake_logo = './public/images/wake_logo.png'
+  const wake_logo = './public/images/wake_logo_final.webp'
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -34,7 +34,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src={require("../wake_logo.png")} width="80" height="80" alt=""/>
+          <img src={require("../Images/wake_logo_final.webp")} width="80" height="80" alt=""/>
 
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -49,7 +49,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <a
-                href="https://www.instagram.com/ivan.tonon.96/"
+                href="https://instagram.com/w.a.k.e.2022?igshid=YmMyMTA2M2Y="
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -69,7 +69,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <a
-                href="https://www.instagram.com/ivan.tonon.96/"
+                href="https://instagram.com/w.a.k.e.2022?igshid=YmMyMTA2M2Y="
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

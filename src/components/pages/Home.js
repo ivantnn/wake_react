@@ -7,8 +7,7 @@ import Footer from '../Footer.js';
 function Home() {
   return (
     <>
-      <HeroSection />
-
+    <img src={require("../../Images/schedule.png")} width="80" height="80" alt=""/>
     </>
   );
 }
