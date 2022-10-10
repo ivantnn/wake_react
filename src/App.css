@@ -32,11 +32,22 @@
   font-size: 100px;
 }
 
+.home_i {
+  background-image: url('../public/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  justify-content: center;
+  color: #fff;
+  font-size: 100px;
+}
+
 .home2 {
   background-image: url('../public/images/img-3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
+  justify-content: center;
   color: #fff;
   font-size: 30px;
   justify-content: center;
@@ -49,6 +60,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  flexShrink: 1;
 }
 
 .sponsors {
@@ -58,6 +70,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  flexShrink: 1;
 }
 
 .faq {
@@ -67,4 +80,5 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  flexShrink: 1;
 }

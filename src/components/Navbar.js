@@ -34,7 +34,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src={require("../Images/wake_logo_final.webp")} width="80" height="80" alt=""/>
+          <img src={require("../Images/Small_logo_Cut.png")} width="80" height="80" alt=""/>
 
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
