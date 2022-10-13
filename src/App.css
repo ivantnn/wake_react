@@ -67,7 +67,7 @@
 }
 
 .schedule {
-  font-family: "FyodorBold";
+  font-family: "GFS Neohellenic";
   background-image: url('../public/images/schedule-01.png');
   background-position: center;
   background-size: contain;
@@ -96,8 +96,8 @@
 }
 
 .sponsors {
-  font-family: "FyodorBold";
-  background: #16839E;
+  font-family: "GFS Neohellenic";
+  background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
   color: #fff;
   font-size: 60px;
   width: 100%;
@@ -105,7 +105,7 @@
   word-wrap:break-word;
 }
 .sponsors2 {
-  font-family: "FyodorBold";
+  font-family: "GFS Neohellenic";
   background: #16839E;
   color: #fff;
   font-size: 20px;
@@ -117,7 +117,7 @@
 
 .faq {
   font-family: "GFS Neohellenic";
-  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
+  background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,9 +132,7 @@
 
 .faq_title {
   font-family: "GFS Neohellenic";
-  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
   color: #fff;
   padding: 1rem;
   font-size: 80px;
@@ -144,8 +142,6 @@
 .faq_bold {
   font-family: "GFS Neohellenic";
   background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
-  background-position: center;
-  background-size: cover;
   color: #fff;
   width: 100%;
   padding: 1rem;
@@ -156,11 +152,9 @@
 .faq_note {
   font-family: "GFS Neohellenic";
   background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
-  background-position: center;
-  background-size: cover;
   color: #fff;
   width: 100%;
-  padding: 1rem;
+  padding: 2.5rem;
   font-size: 40px;
   word-wrap:break-word;
 }
