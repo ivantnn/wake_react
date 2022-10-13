@@ -10,3 +10,9 @@ src: local("GFSNeohellenic"),
  url("./fonts/GFSNeohellenic/GFSNeohellenic-Regular.ttf") format("truetype");
 font-weight: bold;
 }
+@font-face {
+font-family: "GFSNeohellenic_bold";
+src: local("GFSNeohellenic_bold"),
+ url("./fonts/GFSNeohellenic/GFSNeohellenic-Bold.ttf") format("truetype");
+font-weight: bold;
+}

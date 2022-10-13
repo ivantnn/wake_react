@@ -110,20 +110,57 @@
   color: #fff;
   font-size: 20px;
   width: 100%;
+  padding: 1rem;
   height: 10%;
   word-wrap:break-word;
 }
 
 .faq {
-  font-family: "FyodorBold";
-  background-image: url('../public/images/woods.jpg');
+  font-family: "GFS Neohellenic";
+  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   width: 100%;
-  font-size: 100px;
+  padding: 1rem;
+  font-size: 25px;
   flexShrink: 1;
   flexWrap: 'wrap';
+  word-wrap:break-word;
+}
+
+.faq_title {
+  font-family: "GFS Neohellenic";
+  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 1rem;
+  font-size: 80px;
+  word-wrap:break-word;
+}
+
+.faq_bold {
+  font-family: "GFS Neohellenic";
+  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  font-size: 50px;
+  word-wrap:break-word;
+}
+
+.faq_note {
+  font-family: "GFS Neohellenic";
+  background: linear-gradient(90deg, rgb(13, 79, 95), rgb(22, 131, 158),rgb(13, 79, 95));
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  font-size: 40px;
   word-wrap:break-word;
 }
