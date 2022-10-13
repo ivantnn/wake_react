@@ -8,6 +8,7 @@ import Footer from '../Footer.js';
 function Home() {
   return (
     <>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <h1 className='under_nav' style={{ flex:1, flexWrap: 'wrap' }}></h1>
     <h1 className='home' style={{ flex:1, flexWrap: 'wrap' }}>WAKE 2022</h1>
     <h2 className='home_i'>
