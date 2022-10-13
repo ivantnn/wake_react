@@ -135,7 +135,7 @@
   background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
   color: #fff;
   padding: 1rem;
-  font-size: 80px;
+  font-size: 50px;
   word-wrap:break-word;
 }
 
@@ -145,7 +145,7 @@
   color: #fff;
   width: 100%;
   padding: 1rem;
-  font-size: 50px;
+  font-size: 40px;
   word-wrap:break-word;
 }
 
@@ -155,6 +155,6 @@
   color: #fff;
   width: 100%;
   padding: 2.5rem;
-  font-size: 40px;
+  font-size: 30px;
   word-wrap:break-word;
 }

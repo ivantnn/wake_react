@@ -24,10 +24,7 @@ function Home() {
     IMT Atlantique Brest - 15 students<br/>
     IMT Atlantique Rennes - 15 students<br/>
     Centrale Nantes - 50 students<br/>
-    Polytech Nantes - 20 students<br/>
-    Oniris Nantes - 7 students<br/>
-    ICAM Nantes - 7 students<br/>
-    Ecole Supérieure du Bois Nantes - 6<br/><br/>Once you sign up, you will receive an email in the coming days inviting you to buy your ticket. Your attendance will be confirmed upon receiving your payment</h2>
+    Polytech / Oniris Engineering / ICAM / Ecole Supérieure du Bois - 50 students<br/><br/>Once you sign up, you will receive an email in the coming days inviting you to buy your ticket. Your attendance will be confirmed upon receiving your payment</h2>
 
     </>
   );
