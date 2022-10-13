@@ -9,6 +9,7 @@
 .schedule,
 .sponsors,
 .faq {
+  font-family: "FyodorBold";
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,12 +18,14 @@
 }
 
 .under_nav {
+  font-family: "FyodorBold";
   background-image: url('../public/images/blank.png');
   background-position: center;
   background-size: cover;
 }
 
 .home {
+  font-family: "FyodorBold";
   background-image: url('../public/images/img-3.jpg');
   background-position: center;
   background-size: cover;
@@ -34,6 +37,7 @@
 }
 
 .home_i {
+  font-family: "FyodorBold";
   background-image: url('../public/images/img-3.jpg');
   background-position: center;
   background-size: cover;
@@ -45,6 +49,7 @@
 }
 
 .home2 {
+  font-family: "FyodorBold";
   background-image: url('../public/images/img-3.jpg');
   background-position: center;
   background-size: cover;
@@ -57,9 +62,10 @@
 }
 
 .schedule {
-  background-image: url('../public/images/img-1.jpg');
+  font-family: "FyodorBold";
+  background-image: url('../public/images/schedule-01.png');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -68,6 +74,7 @@
 }
 
 .sponsors {
+  font-family: "FyodorBold";
   background-image: url('../public/images/img-5.jpg');
   background-position: center;
   background-size: fill;
@@ -79,6 +86,7 @@
 }
 
 .faq {
+  font-family: "FyodorBold";
   background-image: url('../public/images/woods.jpg');
   background-position: center;
   background-size: cover;

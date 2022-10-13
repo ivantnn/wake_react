@@ -36,7 +36,7 @@ function Navbar() {
           <img src={require("../Images/Small_logo_Cut.png")} width="80" height="80" alt=""/>
 
 
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='font-face-gm' onClick={closeMobileMenu}>
           WAKE
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -122,12 +122,12 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                SIGN-UP
               </Link>
             </li>
 
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Sign Up to Wake</Button>}
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
