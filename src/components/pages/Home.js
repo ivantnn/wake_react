@@ -17,11 +17,9 @@ function Home() {
 
 
     <h2 className='home2'>
-    This event, World Atlantic Kelio Event, will gather around 200 international students from different engineering schools in Nantes, for a week-end. This is the first of two editions on the horizon of Paris 2024 Olympic Games ! The values ​​of sharing and openness are the driving force behind this event, through sporting and cultural encounters.</h2>
+    This event, World Atlantic Kelio Event, will gather around 200 international students from different engineering schools in Nantes, for a week-end. This is the first of two editions on the horizon of Paris 2024 Olympic Games ! The values ​​of sharing and openness are the driving force behind this event, through sporting and cultural encounters.<br/><br/><br/>
 
-    <h1 className='home'> The WAKE is...   </h1>
 
-    <h2 className='home2'>
     Places are limited to 200 students, with the following limits for each school:<br/>
 
 

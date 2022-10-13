@@ -26,7 +26,7 @@
 
 .home {
   font-family: "GFS Neohellenic";
-  background-image: url('../public/images/img-3.jpg');
+  background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
