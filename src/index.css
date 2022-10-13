@@ -4,3 +4,9 @@ src: local("FyodorBold"),
  url("./fonts/fyodor/truetype/Fyodor-Bold.ttf") format("truetype");
 font-weight: bold;
 }
+ @font-face {
+font-family: "GFSNeohellenic";
+src: local("GFSNeohellenic"),
+ url("./fonts/GFSNeohellenic/GFSNeohellenic-Regular.ttf") format("truetype");
+font-weight: bold;
+}
