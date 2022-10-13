@@ -14,7 +14,6 @@ function Navbar() {
   const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const wake_logo = './public/images/wake_logo_final.webp'
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -123,7 +122,7 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up to Wake
+                Sign Up
               </Link>
             </li>
 
