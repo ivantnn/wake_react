@@ -30,6 +30,7 @@
   justify-content: center;
   color: #fff;
   font-size: 100px;
+  word-wrap:break-word;
 }
 
 .home_i {
@@ -40,6 +41,7 @@
   justify-content: center;
   color: #fff;
   font-size: 100px;
+  word-wrap:break-word;
 }
 
 .home2 {
@@ -51,6 +53,7 @@
   color: #fff;
   font-size: 30px;
   justify-content: center;
+  word-wrap:break-word;
 }
 
 .schedule {
@@ -61,6 +64,7 @@
   color: #fff;
   font-size: 100px;
   flexShrink: 1;
+  word-wrap:break-word;
 }
 
 .sponsors {
@@ -71,6 +75,7 @@
   color: #fff;
   font-size: 100px;
   flexShrink: 1;
+  word-wrap:break-word;
 }
 
 .faq {
@@ -81,4 +86,5 @@
   color: #fff;
   font-size: 100px;
   flexShrink: 1;
+  word-wrap:break-word;
 }

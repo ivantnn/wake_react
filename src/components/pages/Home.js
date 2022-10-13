@@ -10,8 +10,8 @@ function Home() {
     <>
     <h1 className='under_nav' style={{ flex:1, flexWrap: 'wrap' }}></h1>
     <h1 className='home' style={{ flex:1, flexWrap: 'wrap' }}>WAKE 2022</h1>
-    <h1 className='home_i'>
-    "AN INTERNATIONAL EVENT AT IMT ATLANTIQUE" </h1>
+    <h2 className='home_i'>
+    "AN INTERNATIONAL EVENT AT IMT ATLANTIQUE" </h2>
 
     <h2 className='home2'>
     As part of the ArchOps industrial chair sponsored by Kelio, the International Students' Office (BDI) in collaboration with our school IMT Atlantique will organize a cultural and sporting event on December 2, 3 and 4. {'\n'}</h2>
