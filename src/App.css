@@ -109,6 +109,7 @@
   width: 100%;
   flexShrink: 1;
   word-wrap:break-word;
+  justify-content: center;
 }
 
 .sponsors {
@@ -297,8 +298,86 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
+
+.schedule_overall {
+  font-family: "GFS Neohellenic";
+  background-position: center;
+  background: linear-gradient(45deg, rgb(11, 35, 63), rgb(0, 184,222) ,rgb(254, 237, 0) );
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  height: 10%;
+  word-wrap:break-word;
+}
+
+.schedule_drinks {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/drinks.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  height: 100%;
+  word-wrap:break-word;
+}
+
+.schedule_mondovision {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/mondovision.jpg');
+  padding: 1rem;
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  height: 10%;
+  word-wrap:break-word;
+}
+
+.schedule_saturday {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/Saturday.jpg');
+  padding: 1rem;
+  background-size: contain;
+  color: #fff;
+  font-size: 60px;
+  word-wrap:break-word;
+}
+
+.schedule_nantes {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/nantes.jpg');
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 60px;
+  word-wrap:break-word;
+}
+
+.schedule_singing {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/singing.jpg');
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 60px;
+  word-wrap:break-word;
+}
+
+.schedule_goodbye {
+  font-family: "GFS Neohellenic";
+  background-image: url('./Images/goodbye.jpg');
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  font-size: 60px;
+  word-wrap:break-word;
+}
+
 
 @media screen and (max-width: 960px) {
   .who{
