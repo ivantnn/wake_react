@@ -43,7 +43,7 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
 
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <div className='nav-menu'>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
 
             <li className='nav-item'>
@@ -73,6 +73,19 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 <i class='fab fa-facebook'></i>
+              </a>
+            </li>
+            </div>
+
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+            <li>
+              <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSesdizNVVpdZ9LxQhCFYhHBeYAMOrRjfhTTM9zGvRI0CQXBlw/viewform'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                SIGN-UP
               </a>
             </li>
 
@@ -116,15 +129,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
-              <Link
-                to='https://docs.google.com/forms/d/e/1FAIpQLSesdizNVVpdZ9LxQhCFYhHBeYAMOrRjfhTTM9zGvRI0CQXBlw/viewform'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                SIGN-UP
-              </Link>
-            </li>
+
 
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
