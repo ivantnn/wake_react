@@ -293,6 +293,12 @@
   word-wrap:break-word;
   display: inline-block;
 }
+.center_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 @media screen and (max-width: 960px) {
   .who{
